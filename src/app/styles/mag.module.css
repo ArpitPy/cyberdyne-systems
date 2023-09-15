@@ -1,0 +1,50 @@
+.mag_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #800000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 50%;
+}
+.title{
+    color: white;
+    font-size: 25px;
+}
+.descp{
+    color: white;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.butt{
+    width: 150px;
+    padding: 8px 20px;
+    border: none;
+    background-color: white;
+    color: maroon;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.butt:hover{
+    background-color: gray;
+    color: white;
+}
+@media screen and (max-width: 550px) {
+    .mag_main{
+        flex-direction: column;
+    }
+    .cover{
+        margin-bottom: 20px;
+    }
+    .desc{
+        text-align: center;
+    }
+}

@@ -1,0 +1,33 @@
+.title{
+    background: url('../../../public/mag.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    height: 30vh;
+    font-size: 40px;
+}
+.collection{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(44, 42, 42);
+    color: white;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.issue{
+    height: 282px;
+    width: 200px;
+    text-align: center;
+    margin: 30px;
+}
+.issue_no{
+    text-decoration: none;
+    color: white;
+}

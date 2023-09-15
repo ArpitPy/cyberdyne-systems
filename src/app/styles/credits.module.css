@@ -1,0 +1,9 @@
+.credits{
+    background-color: rgb(52, 48, 48);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}

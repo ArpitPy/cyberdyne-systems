@@ -1,0 +1,117 @@
+.services_main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(80, 79, 79);
+  padding-bottom: 40px;
+}
+.heading {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.cardone {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  width: 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  url("../../../public/one.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 15px;
+} 
+.cardtwo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  width: 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  url("../../../public/two.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.cardthree {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  width: 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  url("../../../public/three.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+@media screen and (max-width: 1266px) {
+  .cards{
+    flex-direction: column;
+  }
+  .cardone{
+    margin-bottom: 20px;
+  }
+  .cardtwo{
+    margin-bottom: 20px;
+  }
+  .cardthree{
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .cardone{
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .cardtwo{
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .cardthree{
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 310px) {
+  .cardone{
+    width: 250px;
+    font-size: 20px;
+  }
+  .cardtwo{
+    width: 250px;
+    font-size: 20px;
+  }
+  .cardthree{
+    width: 250px;
+    font-size: 20px;
+  }
+}

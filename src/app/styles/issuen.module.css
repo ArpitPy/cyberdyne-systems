@@ -1,0 +1,41 @@
+.title{
+    background: url('../../../public/mag.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    height: 30vh;
+    font-size: 40px;
+}
+.content{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(106, 101, 101);
+}
+.cover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.data{
+    margin-top: 30px;
+    color: white;
+}
+.download button{
+    margin-top: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    padding: 20px 40px;
+    background-color: maroon;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
