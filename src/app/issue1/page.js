@@ -14,7 +14,7 @@ const page = () => {
           <b>Published on:</b> 20th September 2023
         </div>
         <div className={styles.download}>
-          <a href="#" target="_blank">
+          <a href="https://drive.google.com/uc?id=1mh2z6X1GAFV1VWrxvfZ3ANXq0s_nqAjR&export=download" target="_blank">
             <button>📁 Download Now!</button>
           </a>
         </div>
