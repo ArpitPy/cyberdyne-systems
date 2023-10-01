@@ -8,10 +8,15 @@ const page = () => {
       <div className={styles.title}>Issue 1</div>
       <div className={styles.content}>
         <div className={styles.cover}>
-          <Image src="/cover.png" height={282} width={200} />
+          <Image alt="cover" src="/cover.png" height={282} width={200} />
         </div>
         <div className={styles.data}>
-          <b>Published on:</b> 20th September 2023
+          <b>Published on:</b> 17th September 2023
+        </div>
+        <div className={styles.download}>
+          <a href="https://drive.google.com/file/d/1mh2z6X1GAFV1VWrxvfZ3ANXq0s_nqAjR/view" target="_blank">
+            <button>📗 Read Online!</button>
+          </a>
         </div>
         <div className={styles.download}>
           <a href="https://drive.google.com/uc?id=1mh2z6X1GAFV1VWrxvfZ3ANXq0s_nqAjR&export=download" target="_blank">

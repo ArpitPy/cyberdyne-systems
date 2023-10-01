@@ -12,7 +12,7 @@ function page() {
       <div className={styles.collection}>
         <Link style={{ textDecoration: "none" }} href="/issue1">
           <div className={styles.issue}>
-            <Image src="/cover.png" height={282} width={200} />
+            <Image alt="cover" src="/cover.png" height={282} width={200} />
             <div className={styles.issue_no}>Issue 1</div>
           </div>
         </Link>
