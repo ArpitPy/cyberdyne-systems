@@ -5,7 +5,7 @@ import Image from "next/image";
 const page = () => {
   return (
     <>
-      <div className={styles.title}>Issue 1</div>
+      <div className={styles.title}>Issue 2</div>
       <div className={styles.content}>
         <div className={styles.cover}>
           <Image alt="cover" src="/cover2.png" height={282} width={200} />
