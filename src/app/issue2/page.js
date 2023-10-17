@@ -14,12 +14,12 @@ const page = () => {
           <b>Published on:</b> 17th October 2023
         </div>
         <div className={styles.download}>
-          <a href="https://drive.google.com/file/d/1pmEr2R4NiGn7oIfaFNBoWzV4lA5CUOh5/view?usp=sharing" target="_blank">
+          <a href="https://drive.google.com/file/d/1kyZu3e2DqNKmIzt6U5SXg5oN3gq9jP8E/view?usp=sharing" target="_blank">
             <button>📗 Read Online!</button>
           </a>
         </div>
         <div className={styles.download}>
-          <a href="https://drive.google.com/uc?id=1pmEr2R4NiGn7oIfaFNBoWzV4lA5CUOh5&export=download" target="_blank">
+          <a href="https://drive.google.com/uc?id=1kyZu3e2DqNKmIzt6U5SXg5oN3gq9jP8E&export=download" target="_blank">
             <button>📁 Download Now!</button>
           </a>
         </div>
