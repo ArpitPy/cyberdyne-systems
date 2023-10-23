@@ -1,6 +1,7 @@
 import Credits from "./components/credits/Credits";
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
+import { Analytics } from '@vercel/analytics/react';
 import "./globals.css";
 import { Poppins } from "next/font/google";
 
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
       <body className={pop.className}>
         <Navbar />
         {children}
+        <Analytics />
         <Footer />
         <Credits />
       </body>
